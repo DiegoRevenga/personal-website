@@ -17,7 +17,7 @@
     Madrid, Spain
   </p>
   <div class="links">
-    <a href="{`mailto:${email}`}">Email</a>
+    <a href="{`mailto:${email}`}" target="_blank">Email</a>
     <a href="{linkedin}" target="_blank">LinkedIn</a>
     <a href="{github}" target="_blank">GitHub</a>
   </div>
@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    text-align: center;
   }
   
   .description {
